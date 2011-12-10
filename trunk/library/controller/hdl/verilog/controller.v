@@ -57,13 +57,9 @@ begin
 	begin
 		slave_wrack	<=	slave_wrreq;
 		slave_rdack	<=	slave_rdreq;
-		pixel_length	=	configuration_reg0[11:0] + configuration_reg0[23:12];
-		if(fetcher_command_complete & storer_command_complete)
-			configuration_reg4[3:0] <= 4'b0000;
-		else if((configuration_reg3[3:0] == 4'b1111) & slave_wrack)
-			configuration_reg4[3:0] <= 4'b1111;
+		pixel_length	<=	configuration_reg0[11:0] * configuration_reg0[23:12];
 		
-		if(slave_wrreq & slave_wrack)
+		if(slave_wrreq)
 		begin
 			case(slave_address[6:4])
 				3'b000	:
@@ -81,14 +77,14 @@ begin
 				3'b011	:
 				begin	
 					configuration_reg3	<=	slave_datain;
-			
+					configuration_reg4	<=	slave_datain;
 				end
 				3'b100	:
 				begin	
 				end
 			endcase
 		end
-		if(slave_rdreq & slave_rdack)
+		if(slave_rdreq)
 		begin
 			case(slave_address[6:4])
 				3'b000	:
@@ -112,7 +108,11 @@ begin
 					slave_dataout	<=	configuration_reg4;
 				end
 			endcase
-		end	
+		end
+
+		if(fetcher_command_complete & storer_command_complete)
+			configuration_reg4[3:0] <= 4'b0000;	
+			
 	end
 end
 
