@@ -1,0 +1,17 @@
+# Output products list for <g_channel_sr>
+_xmsgs/
+g_channel_sr.asy
+g_channel_sr.gise
+g_channel_sr.ise
+g_channel_sr.ngc
+g_channel_sr.sym
+g_channel_sr.v
+g_channel_sr.veo
+g_channel_sr.vhd
+g_channel_sr.vho
+g_channel_sr.xco
+g_channel_sr.xise
+g_channel_sr_flist.txt
+g_channel_sr_readme.txt
+g_channel_sr_xdb/tmp/
+g_channel_sr_xmdf.tcl

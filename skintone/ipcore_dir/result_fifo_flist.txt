@@ -1,0 +1,18 @@
+# Output products list for <result_fifo>
+_xmsgs/
+fifo_generator_ug175.pdf
+result_fifo.asy
+result_fifo.gise
+result_fifo.ise
+result_fifo.ngc
+result_fifo.sym
+result_fifo.v
+result_fifo.veo
+result_fifo.vhd
+result_fifo.vho
+result_fifo.xco
+result_fifo.xise
+result_fifo_flist.txt
+result_fifo_readme.txt
+result_fifo_xdb/tmp/
+result_fifo_xmdf.tcl
