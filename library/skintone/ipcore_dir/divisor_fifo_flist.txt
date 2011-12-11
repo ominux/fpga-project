@@ -1,0 +1,18 @@
+# Output products list for <divisor_fifo>
+_xmsgs/
+divisor_fifo.asy
+divisor_fifo.gise
+divisor_fifo.ise
+divisor_fifo.ngc
+divisor_fifo.sym
+divisor_fifo.v
+divisor_fifo.veo
+divisor_fifo.vhd
+divisor_fifo.vho
+divisor_fifo.xco
+divisor_fifo.xise
+divisor_fifo_flist.txt
+divisor_fifo_readme.txt
+divisor_fifo_xdb/tmp/
+divisor_fifo_xmdf.tcl
+fifo_generator_ug175.pdf

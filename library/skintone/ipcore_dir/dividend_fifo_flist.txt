@@ -1,0 +1,18 @@
+# Output products list for <dividend_fifo>
+_xmsgs/
+dividend_fifo.asy
+dividend_fifo.gise
+dividend_fifo.ise
+dividend_fifo.ngc
+dividend_fifo.sym
+dividend_fifo.v
+dividend_fifo.veo
+dividend_fifo.vhd
+dividend_fifo.vho
+dividend_fifo.xco
+dividend_fifo.xise
+dividend_fifo_flist.txt
+dividend_fifo_readme.txt
+dividend_fifo_xdb/tmp/
+dividend_fifo_xmdf.tcl
+fifo_generator_ug175.pdf

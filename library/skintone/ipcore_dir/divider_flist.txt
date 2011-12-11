@@ -1,0 +1,17 @@
+# Output products list for <divider>
+_xmsgs/
+divider.asy
+divider.gise
+divider.ise
+divider.ngc
+divider.sym
+divider.v
+divider.veo
+divider.vhd
+divider.vho
+divider.xco
+divider.xise
+divider_flist.txt
+divider_readme.txt
+divider_xdb/tmp/
+divider_xmdf.tcl

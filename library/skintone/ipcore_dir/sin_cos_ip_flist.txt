@@ -1,0 +1,17 @@
+# Output products list for <sin_cos_ip>
+_xmsgs/
+sin_cos_ip.asy
+sin_cos_ip.gise
+sin_cos_ip.ise
+sin_cos_ip.ngc
+sin_cos_ip.sym
+sin_cos_ip.v
+sin_cos_ip.veo
+sin_cos_ip.vhd
+sin_cos_ip.vho
+sin_cos_ip.xco
+sin_cos_ip.xise
+sin_cos_ip_flist.txt
+sin_cos_ip_readme.txt
+sin_cos_ip_xdb/tmp/
+sin_cos_ip_xmdf.tcl
