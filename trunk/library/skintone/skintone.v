@@ -142,17 +142,19 @@ module skintone
 		end	
 	end
 	
-	trans_cr
+	TransCr	
 	instance_trans_cr
 	(
 		.clk			(clk),
 		.clk_400MHz		(clk),
 
-		.y			(datain[`Y_VALUE]),
-		.y_valid		(datain_valid),
+		.y_value		(datain[`Y_VALUE]),
+		.cr_value		(datain[`CR_VALUE]),
+
+		.datain_valid		(datain_valid),
 	
-		.trans_cr_output	(TCr),
-		.trans_cr_output_valid	(TCr_valid)
+		.trans_result	(TCr),
+		.dataout_valid	(TCr_valid)
 	);
 
 	trans_cb
